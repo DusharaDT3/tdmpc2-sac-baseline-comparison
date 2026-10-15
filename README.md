@@ -1,15 +1,12 @@
-# Phase 2 submission package — TD-MPC2 (Dushara, KIC-BSCCSAI-251P-052)
+# TD-MPC2 Phase 2 — SAC baseline vs. pretrained checkpoint comparison (Dushara, KIC-BSCCSAI-251P-052)
 
-This folder is a small, self-contained package of this project's own work, intended for the Moodle Phase 2
-submission slot (notebook + short written summary). It does **not** include the official `tdmpc2`
+This is the implementation referenced by the Phase 2 report submitted on the LMS. It's a small,
+self-contained package of this project's own work. It does **not** include the official `tdmpc2`
 repository, the downloaded pretrained checkpoints, or the Python virtual environment — those are large,
 externally-available dependencies, obtained as described below.
 
 ## What's here
 
-- `Phase2_TD_MPC2_Dushara_052_summary.docx` / `.pdf` — the short written summary for the Moodle slot
-  (~1,000 words): introduction/option chosen, method, results tables, discussion, limitations,
-  conclusion, references.
 - `Phase2_TD_MPC2_Dushara_052_baseline.ipynb` — the Phase 2 deliverable notebook, already executed with
   real outputs embedded. Open it directly to see the full workflow, explanations, tables, and chart
   without re-running anything.
