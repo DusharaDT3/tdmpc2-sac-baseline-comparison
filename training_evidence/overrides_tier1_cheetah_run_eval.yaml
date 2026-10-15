@@ -1,0 +1,6 @@
+- task=cheetah-run
+- model_size=5
+- checkpoint=/home/dushara-kalubowila/Desktop/NIBM/Machine Learning/tdmpc2/checkpoints/cheetah-run-1.pt
+- eval_episodes=10
+- save_video=false
+- seed=1

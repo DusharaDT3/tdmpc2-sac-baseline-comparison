@@ -1,0 +1,11 @@
+- task=cheetah-run
+- model_size=5
+- steps=50000
+- eval_freq=50000
+- seed=1
+- exp_name=size5_steps50k
+- compile=false
+- save_video=false
+- enable_wandb=false
+- wandb_project=null
+- wandb_entity=null

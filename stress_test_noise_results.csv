@@ -1,0 +1,13 @@
+task,sigma,mean_return,std_return
+cheetah-run,0.0,840.78,26.33
+cheetah-run,0.05,214.06,51.07
+cheetah-run,0.1,118.17,18.87
+cheetah-run,0.2,46.71,12.78
+walker-walk,0.0,982.72,8.74
+walker-walk,0.05,976.18,8.80
+walker-walk,0.1,908.04,29.16
+walker-walk,0.2,645.37,75.97
+hopper-hop,0.0,442.50,148.04
+hopper-hop,0.05,136.47,49.57
+hopper-hop,0.1,31.77,22.38
+hopper-hop,0.2,3.43,4.03

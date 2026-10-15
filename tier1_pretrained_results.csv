@@ -1,0 +1,4 @@
+task,mean_return,episodes,checkpoint
+cheetah-run,851.9,10,cheetah-run-1.pt
+walker-walk,983.0,10,walker-walk-1.pt
+hopper-hop,438.6,10,hopper-hop-1.pt

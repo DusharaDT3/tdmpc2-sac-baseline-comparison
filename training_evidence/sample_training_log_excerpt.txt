@@ -1,0 +1,38 @@
+# Excerpt of real training log: run size5_steps50k (cheetah-run, model_size=5, steps=50000, compile=false)
+# Full original file (58KB-16KB depending on run) was in /tmp during the session and is not preserved long-term;
+# this excerpt is copied verbatim from it, first lines (training start) and last lines (training end).
+# Source: /tmp/run_size5_steps50k.log, captured by the shell sweep driver's stdout redirection.
+
+--- first 15 lines ---
+Work dir: /home/dushara-kalubowila/Desktop/NIBM/Machine Learning/tdmpc2/tdmpc2/logs/cheetah-run/1/size5_steps50k
+Episode length: 500
+Discount factor: 0.99
+---------------------------------------
+  Task:           Cheetah Run
+  Steps:          50,000
+  Observations:   (17,)
+  Actions:        6
+  Experiment:     size5_steps50k
+---------------------------------------
+Wandb disabled.
+Architecture: TD-MPC2 World Model
+Encoder: ModuleDict(
+  (state): Sequential(
+    (0): NormedLinear(in_features=17, out_features=256, bias=True, act=Mish)
+
+--- last 15 lines ---
+ train            E: 88                    I: 44,500                R: 568.6                 S: 0.0                   T: 0:45:10            
+ train            E: 89                    I: 45,000                R: 568.9                 S: 0.0                   T: 0:45:40            
+ train            E: 90                    I: 45,500                R: 574.1                 S: 0.0                   T: 0:46:10            
+ train            E: 91                    I: 46,000                R: 591.9                 S: 0.0                   T: 0:46:41            
+ train            E: 92                    I: 46,500                R: 593.9                 S: 0.0                   T: 0:47:11            
+ train            E: 93                    I: 47,000                R: 609.9                 S: 0.0                   T: 0:47:42            
+ train            E: 94                    I: 47,500                R: 617.5                 S: 0.0                   T: 0:48:12            
+ train            E: 95                    I: 48,000                R: 614.2                 S: 0.0                   T: 0:48:42            
+ train            E: 96                    I: 48,500                R: 603.9                 S: 0.0                   T: 0:49:12            
+ train            E: 97                    I: 49,000                R: 611.5                 S: 0.0                   T: 0:49:43            
+ train            E: 98                    I: 49,500                R: 627.6                 S: 0.0                   T: 0:50:13            
+ eval             E: 99                    I: 50,000                R: 559.5                 S: 0.0                   T: 0:53:09            
+ train            E: 99                    I: 50,000                R: 612.7                 S: 0.0                   T: 0:53:09            
+
+Training completed successfully

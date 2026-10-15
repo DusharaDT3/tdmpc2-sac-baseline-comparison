@@ -1,0 +1,17 @@
+# Verified installed versions in the working environment used to produce the results in this submission
+# (checked directly with `python -c "import X; print(X.__version__)"` / importlib.metadata, 2026-10-14).
+# This is NOT a frozen pip-install list of the whole environment -- only the packages this project's own
+# code directly depends on.
+torch==2.7.1+cu126
+numpy==1.26.4          # pinned deliberately: dm_control needs numpy 1.x; a transitive numpy 2.x upgrade
+                        # (pulled in twice during this project, once by pandas, once by matplotlib) breaks
+                        # dm_control's env.reset(). See TDMPC2_SETUP_GUIDE.md.
+scipy==1.13.1
+gymnasium==0.29.1
+dm_control==1.0.16
+mujoco==3.1.2
+stable-baselines3==2.9.0
+omegaconf==2.3.0
+hydra-core==1.3.2
+pandas
+matplotlib

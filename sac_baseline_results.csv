@@ -1,0 +1,4 @@
+task,steps,seed,mean_return,std_return,train_time_s
+cheetah-run,200000,1,294.80,37.81,1155.3
+walker-walk,200000,1,273.87,36.90,1195.4
+hopper-hop,200000,1,0.03,0.08,1144.2
